@@ -42,7 +42,7 @@ alias mountusb1="sudo mount -v /dev/usb1 /mnt/usb1"
 alias mountusb2="sudo mount -v /dev/usb2 /mnt/usb2"
 alias cdnvim="cd ~/.config/nvim"
 # dotfiles sync
-alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles-arch-thinkpad/" --work-tree="$HOME"'
 alias carterhelp='nvim ~/README.md'
 alias ytmp3='yt-dlp -x --audio-format=mp3 '
 
