@@ -19,7 +19,7 @@
       - `sudo pacman -Rnsv [package]`
 ## AUR
   - To install from AUR
-    - Acquire build files by cloning into `~./builds` folder
+    - Acquire build files by cloning into `~/builds` folder
     - In the resulting directory, inspect the PKGBUILD
     - Build the package with `makepkg -sirc`
       - `-s` automatically resolves and installs any dependencies with pacman 
@@ -29,6 +29,7 @@
       - `-c` cleans up temp build files after the build
     - Install the package
       - `pacman -U package_name-version-arch.pkg.tar.zst`
+        - Already done if `-i` flag included above
   - https://wiki.archlinux.org/title/Arch_User_Repository
 ## Sway
   - See full config at ~/.config/sway
